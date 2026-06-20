@@ -11,6 +11,7 @@ discriminate, which were ambiguous, and how did you handle the
 ambiguities? Cite at least one specific question from
 `data/eval_questions.jsonl` where two shapes were plausible candidates.
 
+
 > I implemented `detect_shape` as a priority-ordered set of keyword and
 > regex rules over the lowercased question text. Shapes with unique
 > surface markers were straightforward: Q10 fires on `r"under \d+

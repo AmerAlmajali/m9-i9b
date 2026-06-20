@@ -208,3 +208,6 @@ def extract_slots(question: str, shape: ShapeId) -> dict:
         return {"technique": _find_technique(q)}
 
     raise ValueError(f"Unknown shape: {shape}")
+
+
+# q
